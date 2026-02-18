@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../Movie Ticket Booking System/MovieTicketBookingSystem.csproj" />
+  <Project Path="../TicketBookingSystem/TicketBookingSystem.csproj" />
+  <Project Path="Assignment 01 OOP.csproj" />
+</Solution>

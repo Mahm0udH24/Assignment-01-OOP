@@ -1,0 +1,14 @@
+C:\Back End\OOP\Assignment 01 OOP\obj\Debug\net10.0\Assignment 01 OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Back End\OOP\Assignment 01 OOP\obj\Debug\net10.0\Assignment 01 OOP.AssemblyInfoInputs.cache
+C:\Back End\OOP\Assignment 01 OOP\obj\Debug\net10.0\Assignment 01 OOP.AssemblyInfo.cs
+C:\Back End\OOP\Assignment 01 OOP\obj\Debug\net10.0\Assignment 01 OOP.csproj.CoreCompileInputs.cache
+C:\Back End\OOP\Assignment 01 OOP\bin\Debug\net10.0\Assignment 01 OOP.exe
+C:\Back End\OOP\Assignment 01 OOP\bin\Debug\net10.0\Assignment 01 OOP.deps.json
+C:\Back End\OOP\Assignment 01 OOP\bin\Debug\net10.0\Assignment 01 OOP.runtimeconfig.json
+C:\Back End\OOP\Assignment 01 OOP\bin\Debug\net10.0\Assignment 01 OOP.dll
+C:\Back End\OOP\Assignment 01 OOP\bin\Debug\net10.0\Assignment 01 OOP.pdb
+C:\Back End\OOP\Assignment 01 OOP\obj\Debug\net10.0\Assignment 01 OOP.dll
+C:\Back End\OOP\Assignment 01 OOP\obj\Debug\net10.0\refint\Assignment 01 OOP.dll
+C:\Back End\OOP\Assignment 01 OOP\obj\Debug\net10.0\Assignment 01 OOP.pdb
+C:\Back End\OOP\Assignment 01 OOP\obj\Debug\net10.0\Assignment 01 OOP.genruntimeconfig.cache
+C:\Back End\OOP\Assignment 01 OOP\obj\Debug\net10.0\ref\Assignment 01 OOP.dll

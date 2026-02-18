@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Back End\\OOP\\Assignment 01 OOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33355569-04EE-4A29-99F0-A97935E316B1}|..\\TicketBookingSystem\\TicketBookingSystem.csproj|c:\\back end\\oop\\ticketbookingsystem\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33355569-04EE-4A29-99F0-A97935E316B1}|..\\TicketBookingSystem\\TicketBookingSystem.csproj|c:\\back end\\oop\\ticketbookingsystem\\tickettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E00BB67-6787-4910-A426-B2AAD94886AE}|..\\Movie Ticket Booking System\\Movie Ticket Booking System.csproj|c:\\back end\\oop\\movie ticket booking system\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E00BB67-6787-4910-A426-B2AAD94886AE}|..\\Movie Ticket Booking System\\Movie Ticket Booking System.csproj|c:\\back end\\oop\\movie ticket booking system\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E00BB67-6787-4910-A426-B2AAD94886AE}|..\\Movie Ticket Booking System\\Movie Ticket Booking System.csproj|c:\\back end\\oop\\movie ticket booking system\\tickettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E00BB67-6787-4910-A426-B2AAD94886AE}|..\\Movie Ticket Booking System\\Movie Ticket Booking System.csproj|c:\\back end\\oop\\movie ticket booking system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33355569-04EE-4A29-99F0-A97935E316B1}|..\\TicketBookingSystem\\TicketBookingSystem.csproj|c:\\back end\\oop\\ticketbookingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 27,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\Back End\\OOP\\TicketBookingSystem\\Seat.cs",
+              "RelativeDocumentMoniker": "..\\TicketBookingSystem\\Seat.cs",
+              "ToolTip": "C:\\Back End\\OOP\\TicketBookingSystem\\Seat.cs",
+              "RelativeToolTip": "..\\TicketBookingSystem\\Seat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T06:22:18.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketType.cs",
+              "DocumentMoniker": "C:\\Back End\\OOP\\TicketBookingSystem\\TicketType.cs",
+              "RelativeDocumentMoniker": "..\\TicketBookingSystem\\TicketType.cs",
+              "ToolTip": "C:\\Back End\\OOP\\TicketBookingSystem\\TicketType.cs",
+              "RelativeToolTip": "..\\TicketBookingSystem\\TicketType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T06:14:52.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Back End\\OOP\\TicketBookingSystem\\Program.cs",
+              "RelativeDocumentMoniker": "..\\TicketBookingSystem\\Program.cs",
+              "ToolTip": "C:\\Back End\\OOP\\TicketBookingSystem\\Program.cs",
+              "RelativeToolTip": "..\\TicketBookingSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T06:14:14.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Back End\\OOP\\Movie Ticket Booking System\\Ticket.cs",
+              "RelativeDocumentMoniker": "..\\Movie Ticket Booking System\\Ticket.cs",
+              "ToolTip": "C:\\Back End\\OOP\\Movie Ticket Booking System\\Ticket.cs",
+              "RelativeToolTip": "..\\Movie Ticket Booking System\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T06:04:22.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\Back End\\OOP\\Movie Ticket Booking System\\Seat.cs",
+              "RelativeDocumentMoniker": "..\\Movie Ticket Booking System\\Seat.cs",
+              "ToolTip": "C:\\Back End\\OOP\\Movie Ticket Booking System\\Seat.cs",
+              "RelativeToolTip": "..\\Movie Ticket Booking System\\Seat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T06:03:28.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketType.cs",
+              "DocumentMoniker": "C:\\Back End\\OOP\\Movie Ticket Booking System\\TicketType.cs",
+              "RelativeDocumentMoniker": "..\\Movie Ticket Booking System\\TicketType.cs",
+              "ToolTip": "C:\\Back End\\OOP\\Movie Ticket Booking System\\TicketType.cs",
+              "RelativeToolTip": "..\\Movie Ticket Booking System\\TicketType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T06:02:26.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Back End\\OOP\\Movie Ticket Booking System\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Movie Ticket Booking System\\Program.cs",
+              "ToolTip": "C:\\Back End\\OOP\\Movie Ticket Booking System\\Program.cs",
+              "RelativeToolTip": "..\\Movie Ticket Booking System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T06:01:48.886Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
