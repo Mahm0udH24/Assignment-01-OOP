@@ -8,13 +8,7 @@ namespace Movie_Ticket_Booking_System
     {
         public char Row;
         public int Number;
-
-        public Seat(char row, int number)
-        {
-            Row = row;
-            Number = number;
-        }
-
+        public Seat(char row, int number) { Row = row; Number = number; }
         public override string ToString() => $"{Row}{Number}";
     }
 }

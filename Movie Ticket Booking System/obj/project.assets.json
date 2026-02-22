@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Back End\\OOP\\Movie Ticket Booking System\\MovieTicketBookingSystem.csproj",
+      "projectUniqueName": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\MovieTicketBookingSystem.csproj",
       "projectName": "MovieTicketBookingSystem",
-      "projectPath": "C:\\Back End\\OOP\\Movie Ticket Booking System\\MovieTicketBookingSystem.csproj",
+      "projectPath": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\MovieTicketBookingSystem.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Back End\\OOP\\Movie Ticket Booking System\\obj\\",
+      "outputPath": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

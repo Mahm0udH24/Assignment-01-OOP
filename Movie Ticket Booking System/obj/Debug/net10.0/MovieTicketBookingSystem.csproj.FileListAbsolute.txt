@@ -1,0 +1,15 @@
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\bin\Debug\net10.0\MovieTicketBookingSystem.exe
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\bin\Debug\net10.0\MovieTicketBookingSystem.deps.json
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\bin\Debug\net10.0\MovieTicketBookingSystem.runtimeconfig.json
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\bin\Debug\net10.0\MovieTicketBookingSystem.dll
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\bin\Debug\net10.0\MovieTicketBookingSystem.pdb
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\obj\Debug\net10.0\MovieTicketBookingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\obj\Debug\net10.0\MovieTicketBookingSystem.AssemblyInfoInputs.cache
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\obj\Debug\net10.0\MovieTicketBookingSystem.AssemblyInfo.cs
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\obj\Debug\net10.0\MovieTicketBookingSystem.csproj.CoreCompileInputs.cache
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\obj\Debug\net10.0\MovieTicketBookingSystem.sourcelink.json
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\obj\Debug\net10.0\MovieTicketBookingSystem.dll
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\obj\Debug\net10.0\refint\MovieTicketBookingSystem.dll
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\obj\Debug\net10.0\MovieTicketBookingSystem.pdb
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\obj\Debug\net10.0\MovieTicketBookingSystem.genruntimeconfig.cache
+C:\Back End\OOP\Assignment_01_OOP\Movie Ticket Booking System\obj\Debug\net10.0\ref\MovieTicketBookingSystem.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Back End\\OOP\\Assignment 01 OOP\\Assignment 01 OOP.csproj": {}
+    "C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Assignment 01 OOP.csproj": {}
   },
   "projects": {
-    "C:\\Back End\\OOP\\Assignment 01 OOP\\Assignment 01 OOP.csproj": {
+    "C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Assignment 01 OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Back End\\OOP\\Assignment 01 OOP\\Assignment 01 OOP.csproj",
+        "projectUniqueName": "C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Assignment 01 OOP.csproj",
         "projectName": "Assignment 01 OOP",
-        "projectPath": "C:\\Back End\\OOP\\Assignment 01 OOP\\Assignment 01 OOP.csproj",
+        "projectPath": "C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Assignment 01 OOP.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Back End\\OOP\\Assignment 01 OOP\\obj\\",
+        "outputPath": "C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
