@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,50 +6,55 @@ namespace Movie_Ticket_Booking_System
 {
     public class Ticket
     {
-        public string MovieName;
-        public TicketType Type;
-        public Seat Seat;
-        private double Price;
+    
+        private static int ticketCounter = 0;
 
+       
+        private string _movieName = "";
+        private double _price;
 
-        public Ticket(string movieName, TicketType type, Seat seat, double price)
+        public int TicketId { get; private set; }
+        public TicketType Type { get; set; }
+        public Seat Seat { get; set; }
+
+        public string MovieName
         {
-            MovieName = movieName;
+            get => _movieName;
+            set { if (!string.IsNullOrEmpty(value)) _movieName = value; }
+        }
+
+        public double Price
+        {
+            get => _price;
+            set { if (value > 0) _price = value; }
+        }
+
+        public double PriceAfterTax => Price * 1.14;
+
+        public Ticket(string movie, TicketType type, Seat seat, double price)
+        {
+            TicketId = ++ticketCounter;
+            MovieName = movie;
             Type = type;
             Seat = seat;
             Price = price;
-        }      
-        public Ticket(string movieName) : this(movieName, TicketType.Standard, new Seat('A', 1), 50.0)
-        {
         }
 
-        public double CalcTotal(double taxPercent)
+        public static int GetTotalTicketsSold() => ticketCounter;
+
+        internal void PrintTicket()
         {
-            return Price + (Price * (taxPercent / 100));
+            throw new NotImplementedException();
         }
 
-        public void ApplyDiscount(ref double discountAmount)
+        internal void ApplyDiscount(ref double coupon)
         {
-            if (discountAmount > 0 && discountAmount <= Price)
-            {
-                Price -= discountAmount;
-                discountAmount = 0; 
-                Console.WriteLine("Discount applied successfully!");
-            }
-            else
-            {
-                Console.WriteLine("Invalid discount amount.");
-            }
+            throw new NotImplementedException();
         }
 
-        public void PrintTicket()
+        internal object CalcTotal(int v)
         {
-            Console.WriteLine("\n--- Booking Summary ---");
-            Console.WriteLine($"Movie: {MovieName}");
-            Console.WriteLine($"Type:  {Type}");
-            Console.WriteLine($"Seat:  {Seat}");
-            Console.WriteLine($"Price: {Price:C}");
-            Console.WriteLine("-----------------------");
+            throw new NotImplementedException();
         }
     }
 }

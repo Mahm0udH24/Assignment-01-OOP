@@ -1,52 +1,112 @@
-﻿using System;
+using System;
 
-namespace Assignment_01_OOP
+namespace Movie_Ticket_Booking_System
 {
-  
-    public class ClassStudent
+    class Program
     {
-        public string? Name;
-    }
-    public struct StructStudent
-    {
-        public string Name;
-    }
-
-    internal class Program
-    {
-        static void Main(string[] args)
+        static void Main()
         {
-      
-            ClassStudent c1 = new ClassStudent { Name = "Ahmed" };
-            ClassStudent c2 = c1; 
-            c2.Name = "Sara";     
+            var myCinema = new Cinema();
 
-            Console.WriteLine($"Class Case: c1.Name = {c1.Name}");
+            for (int i = 1; i <= 3; i++)
+            {
+                Console.WriteLine($"Enter data for Ticket {i}:");
+                string name = ReadNonEmptyString("Movie Name: ");
+                TicketType type = ReadEnumFromInt<TicketType>("Ticket Type (0=Standard, 1=VIP, 2=IMAX): ");
+                char row = ReadCharLetter("Seat Row (A-Z): ");
+                int num = ReadInt("Seat Number: ");
+                double price = ReadDouble("Price: ");
 
-            Console.WriteLine("--------------------------");
+                myCinema.AddTicket(new Ticket(name, type, new Seat(row, num), price));
+                Console.WriteLine();
+            }
 
-            StructStudent s1 = new StructStudent { Name = "Ahmed" };
-            StructStudent s2 = s1; 
-            s2.Name = "Sara";     
+            Console.WriteLine("---------- All Tickets ----------");
+            for (int i = 0; i < 3; i++)
+            {
+                Ticket? t = myCinema[i];
+                if (t != null)
+                    Console.WriteLine($"Ticket #{t.TicketId} | {t.MovieName} | {t.Type} | Seat: {t.Seat} | Price: {t.Price} EGP | After Tax: {t.PriceAfterTax:F1} EGP");
+            }
 
-            Console.WriteLine($"Struct Case: s1.Name = {s1.Name}");
-            
+            Console.WriteLine("\n========== Search by Movie ==========");
+            Console.Write("Enter movie name to search: ");
+            string? searchInput = Console.ReadLine();
+            Ticket? found = !string.IsNullOrEmpty(searchInput) ? myCinema[searchInput] : null; 
+
+            if (found != null)
+                Console.WriteLine($"Found: Ticket #{found.TicketId} | {found.MovieName} | {found.Type} | Seat: {found.Seat} | Price: {found.Price} EGP");
+            else
+                Console.WriteLine("Movie not found.");
+
+            Console.WriteLine($"\n========== Statistics ==========");
+            Console.WriteLine($"Total Tickets Sold: {Ticket.GetTotalTicketsSold()}");
+            Console.WriteLine($"Booking Reference 1: {BookingHelper.GenerateBookingReference()}");
+            Console.WriteLine($"Booking Reference 2: {BookingHelper.GenerateBookingReference()}");
+
+            double discountPrice = BookingHelper.CalcGroupDiscount(5, 80);
+            Console.WriteLine($"\nGroup Discount (5 tickets x 80 EGP): {discountPrice} EGP (10% off applied)");
+        }
+
+        static string ReadNonEmptyString(string prompt)
+        {
+            string? s;
+            do
+            {
+                Console.Write(prompt);
+                s = Console.ReadLine();
+            } while (string.IsNullOrWhiteSpace(s));
+            return s!;
+        }
+
+        static T ReadEnumFromInt<T>(string prompt) where T : Enum
+        {
+            string? s;
+            int n;
+            do
+            {
+                Console.Write(prompt);
+                s = Console.ReadLine();
+            } while (!int.TryParse(s, out n) || !Enum.IsDefined(typeof(T), n));
+            return (T)Enum.ToObject(typeof(T), n);
+        }
+
+        static char ReadCharLetter(string prompt)
+        {
+            string? s;
+            char c;
+            do
+            {
+                Console.Write(prompt);
+                s = Console.ReadLine();
+            } while (string.IsNullOrEmpty(s) || !char.TryParse(s!.Trim().ToUpperInvariant(), out c) || c < 'A' || c > 'Z');
+            return c;
+        }
+
+        static int ReadInt(string prompt)
+        {
+            string? s;
+            int n;
+            do
+            {
+                Console.Write(prompt);
+                s = Console.ReadLine();
+            } while (!int.TryParse(s, out n));
+            return n;
+        }
+
+        static double ReadDouble(string prompt)
+        {
+            string? s;
+            double d;
+            do
+            {
+                Console.Write(prompt);
+                s = Console.ReadLine();
+            } while (!double.TryParse(s, out d));
+            return d;
         }
     }
-    /*
-     
-    A Class is a Reference Type, meaning it stores a reference (address) to the data on the Heap.
-      Class instance to another, both variables point to the same memory address; changing one affects the other. When you assign one
-      Classes fully support Object-Oriented features like Inheritance, allowing one class to derive from another.
-      Classes are managed by the Garbage Collector (GC), which can add overhead to your application.
-
-    A Struct is a Value Type, meaning it stores the actual data directly on the Stack.
-       Struct instance to another, a complete copy of the data is created; changing the copy does not affect the original.
-       Structs do not support inheritance (they cannot inherit from other structs or classes and cannot be base classes).
-       Structs are deallocated immediately when they go out of scope, making them more efficient for small, short-lived data.
-     
-     */
-
 }
 
 
