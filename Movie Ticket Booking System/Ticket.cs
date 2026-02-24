@@ -4,57 +4,32 @@ using System.Text;
 
 namespace Movie_Ticket_Booking_System
 {
-    public class Ticket
+    public abstract class Ticket
     {
-    
-        private static int ticketCounter = 0;
+        private static int _ticketCounter = 0; 
+        private decimal _price;
 
-       
-        private string _movieName = "";
-        private double _price;
+        public int TicketId { get; } 
+        public string MovieName { get; set; }
 
-        public int TicketId { get; private set; }
-        public TicketType Type { get; set; }
-        public Seat Seat { get; set; }
-
-        public string MovieName
-        {
-            get => _movieName;
-            set { if (!string.IsNullOrEmpty(value)) _movieName = value; }
-        }
-
-        public double Price
+        public decimal Price
         {
             get => _price;
-            set { if (value > 0) _price = value; }
+            set { if (value > 0) _price = value; } 
         }
 
-        public double PriceAfterTax => Price * 1.14;
+        public decimal PriceAfterTax => Price * 1.14m; 
 
-        public Ticket(string movie, TicketType type, Seat seat, double price)
+        public Ticket(string movieName, decimal price)
         {
-            TicketId = ++ticketCounter;
-            MovieName = movie;
-            Type = type;
-            Seat = seat;
+            TicketId = ++_ticketCounter; 
+            MovieName = movieName;
             Price = price;
         }
 
-        public static int GetTotalTicketsSold() => ticketCounter;
+        public static int GetTotalTickets() => _ticketCounter;
 
-        internal void PrintTicket()
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void ApplyDiscount(ref double coupon)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal object CalcTotal(int v)
-        {
-            throw new NotImplementedException();
-        }
+        public override string ToString() =>
+            $"Ticket #{TicketId} | {MovieName} | Price: {Price} EGP | After Tax: {PriceAfterTax:F2} EGP";
     }
 }
