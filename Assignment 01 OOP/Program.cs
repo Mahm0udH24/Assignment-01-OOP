@@ -15,7 +15,7 @@ namespace Movie_Ticket_Booking_System
                 TicketType type = ReadEnumFromInt<TicketType>("Ticket Type (0=Standard, 1=VIP, 2=IMAX): ");
                 char row = ReadCharLetter("Seat Row (A-Z): ");
                 int num = ReadInt("Seat Number: ");
-                double price = ReadDouble("Price: ");
+                decimal price = ReadDecimal("Price: ");
 
                 myCinema.AddTicket(new Ticket(name, type, new Seat(row, num), price));
                 Console.WriteLine();
@@ -95,15 +95,15 @@ namespace Movie_Ticket_Booking_System
             return n;
         }
 
-        static double ReadDouble(string prompt)
+        static decimal ReadDecimal(string prompt)
         {
             string? s;
-            double d;
+            decimal d;
             do
             {
                 Console.Write(prompt);
                 s = Console.ReadLine();
-            } while (!double.TryParse(s, out d));
+            } while (!decimal.TryParse(s, out d));
             return d;
         }
     }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Movie_Ticket_Booking_System
 {
-    public abstract class Ticket
+    public class Ticket
     {
         private static int _ticketCounter = 0; 
         private decimal _price;
@@ -28,6 +28,11 @@ namespace Movie_Ticket_Booking_System
         }
 
         public static int GetTotalTickets() => _ticketCounter;
+
+        public virtual void PrintTicket() => Console.Write(ToString());
+
+        public void SetPrice(decimal price) => Price = price;
+        public void SetPrice(decimal price, decimal multiplier) => Price = price * multiplier;
 
         public override string ToString() =>
             $"Ticket #{TicketId} | {MovieName} | Price: {Price} EGP | After Tax: {PriceAfterTax:F2} EGP";

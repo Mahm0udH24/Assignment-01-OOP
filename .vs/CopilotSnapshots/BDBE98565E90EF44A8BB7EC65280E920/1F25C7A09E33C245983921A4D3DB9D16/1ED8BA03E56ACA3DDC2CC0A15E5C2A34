@@ -1,0 +1,44 @@
+﻿namespace Movie_Ticket_Booking_System
+{
+    public class Ticket
+    {
+        private static int _ticketCounter = 0;
+        private decimal _price;
+
+        public int TicketId { get; }
+        public string MovieName { get; set; }
+
+        public decimal Price
+        {
+            get => _price;
+            set { if (value > 0) _price = value; }
+        }
+
+        public decimal PriceAfterTax => Price * 1.14m;
+
+        public Ticket(string movieName, decimal price)
+        {
+            TicketId = ++_ticketCounter;
+            MovieName = movieName;
+            Price = price;
+        }
+
+        // Version 1: Sets price directly (Method Overloading)
+        public void SetPrice(decimal newPrice)
+        {
+            Price = newPrice;
+        }
+
+        // Version 2: Sets price via base and multiplier (Method Overloading)
+        public void SetPrice(decimal basePrice, decimal multiplier)
+        {
+            Price = basePrice * multiplier;
+        }
+
+        // Virtual allows child classes to override this behavior (Dynamic Binding)
+        public virtual void PrintTicket()
+        {
+            Console.Write($"Ticket #{TicketId} | {MovieName} | Price: {Price} EGP | After Tax: {PriceAfterTax:F2} EGP");
+        }
+    }
+}

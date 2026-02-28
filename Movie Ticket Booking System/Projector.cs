@@ -1,4 +1,4 @@
-﻿using Movie_Ticket_Booking_System;
+namespace Movie_Ticket_Booking_System;
 
 public class Projector
 {
@@ -9,8 +9,7 @@ public class Projector
 public class Cinema
 {
     private Ticket[] _tickets = new Ticket[20];
-    private Projector _projector = new Projector(); 
-    public string? CinemaName { get; set; }
+    private Projector _projector = new Projector();
 
     public void AddTicket(Ticket t)
     {
@@ -22,19 +21,20 @@ public class Cinema
 
     public void OpenCinema()
     {
-        Console.WriteLine($"========== {CinemaName} Opened ==========");
+        Console.WriteLine("========== Cinema Opened ==========");
         _projector.Start();
     }
 
     public void CloseCinema()
     {
-        Console.WriteLine($"\n========== {CinemaName} Closed ==========");
+        Console.WriteLine("\n========== Cinema Closed ==========");
         _projector.Stop();
     }
 
+    // Polymorphism in action: calls the specific override for each ticket type
     public void PrintAllTickets()
     {
         Console.WriteLine("\n========== All Tickets ==========");
-        foreach (var t in _tickets) { if (t != null) Console.WriteLine(t); }
+        foreach (var t in _tickets) { t?.PrintTicket(); }
     }
 }
