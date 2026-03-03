@@ -4,37 +4,44 @@ using System.Text;
 
 namespace Movie_Ticket_Booking_System
 {
-    public class Ticket
+    public abstract class Ticket : IPrintable, IBookable, ICloneable
     {
-        private static int _ticketCounter = 0; 
-        private decimal _price;
-
-        public int TicketId { get; } 
+        private static int _counter = 0;
+        public int TicketId { get; protected set; }
         public string MovieName { get; set; }
+        public decimal Price { get; set; }
+        public bool IsBooked { get; private set; }
 
-        public decimal Price
+        public Ticket(string movie, decimal price)
         {
-            get => _price;
-            set { if (value > 0) _price = value; } 
-        }
-
-        public decimal PriceAfterTax => Price * 1.14m; 
-
-        public Ticket(string movieName, decimal price)
-        {
-            TicketId = ++_ticketCounter; 
-            MovieName = movieName;
+            TicketId = ++_counter;
+            MovieName = movie;
             Price = price;
+            IsBooked = false;
         }
 
-        public static int GetTotalTickets() => _ticketCounter;
+        public void Book()
+        {
+            if (IsBooked) Console.WriteLine($"Ticket #{TicketId} is already booked.");
+            else IsBooked = true;
+        }
 
-        public virtual void PrintTicket() => Console.Write(ToString());
+        public void Cancel()
+        {
+            if (!IsBooked) Console.WriteLine($"Ticket #{TicketId} is not booked yet.");
+            else IsBooked = false;
+        }
 
-        public void SetPrice(decimal price) => Price = price;
-        public void SetPrice(decimal price, decimal multiplier) => Price = price * multiplier;
+        public abstract void Print();
 
-        public override string ToString() =>
-            $"Ticket #{TicketId} | {MovieName} | Price: {Price} EGP | After Tax: {PriceAfterTax:F2} EGP";
+   
+        public object Clone()
+        {
+            Ticket clone = (Ticket)this.MemberwiseClone();
+            
+            clone.TicketId = ++_counter;
+            clone.IsBooked = false;
+            return clone;
+        }
     }
 }

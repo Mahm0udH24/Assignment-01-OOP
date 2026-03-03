@@ -4,36 +4,28 @@ using Movie_Ticket_Booking_System;
 public class StandardTicket : Ticket
 {
     public string SeatNumber { get; set; }
-    public StandardTicket(string movie, decimal price, string seat) : base(movie, price) => SeatNumber = seat;
+    public StandardTicket(string m, decimal p, string s) : base(m, p) => SeatNumber = s;
 
-    public override void PrintTicket()
-    {
-        base.PrintTicket(); 
-        Console.WriteLine($" | Seat: {SeatNumber}");
-    }
+    public override void Print() =>
+        Console.WriteLine($"[Ticket #{TicketId}] {MovieName} | Standard | Seat: {SeatNumber} | Price: {Price} | After Tax: {Price * 1.14m} | Booked: {(IsBooked ? "Yes" : "No")}");
 }
 
 public class VIPTicket : Ticket
 {
     public bool LoungeAccess { get; set; } = true;
-    public decimal ServiceFee { get; set; } = 50.0m;
-    public VIPTicket(string movie, decimal price) : base(movie, price) { }
+    public decimal ServiceFee { get; set; } = 50;
 
-    public override void PrintTicket()
-    {
-        base.PrintTicket();
-        Console.WriteLine($"\n   Lounge: {(LoungeAccess ? "Yes" : "No")} | Service Fee: {ServiceFee} EGP");
-    }
+    public VIPTicket(string m, decimal p) : base(m, p) { }
+
+    public override void Print() =>
+        Console.WriteLine($"[Ticket #{TicketId}] {MovieName} | VIP | Lounge: {(LoungeAccess ? "Yes" : "No")} | Fee: {ServiceFee} | Price: {Price} | After Tax: {(Price + ServiceFee) * 1.14m} | Booked: {(IsBooked ? "Yes" : "No")}");
 }
 
 public class IMAXTicket : Ticket
 {
     public bool Is3D { get; set; }
-    public IMAXTicket(string movie, decimal price, bool is3D) : base(movie, price) => Is3D = is3D;
+    public IMAXTicket(string m, decimal p, bool is3D) : base(m, p) => Is3D = is3D;
 
-    public override void PrintTicket()
-    {
-        base.PrintTicket();
-        Console.WriteLine($" | IMAX 3D: {(Is3D ? "No" : "Yes")}");
-    }
+    public override void Print() =>
+        Console.WriteLine($"[Ticket #{TicketId}] {MovieName} | IMAX | 3D: {(Is3D ? "Yes" : "No")} | Price: {Price} | After Tax: {Price * 1.14m} | Booked: {(IsBooked ? "Yes" : "No")}");
 }

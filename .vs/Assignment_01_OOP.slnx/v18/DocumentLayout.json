@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Back End\\OOP\\Assignment_01_OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment 01 OOP\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Back End\\OOP\\Assignment_01_OOP\\TicketBookingSystem\\Ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketBookingSystem\\Ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\Ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movie Ticket Booking System\\Ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movie Ticket Booking System\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment 01 OOP\\Ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment 01 OOP\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\Projector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movie Ticket Booking System\\Projector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\StandardTicket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movie Ticket Booking System\\StandardTicket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\Cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movie Ticket Booking System\\Cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 29,
+          "SelectedChildIndex": 28,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,91 +138,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Back End\\OOP\\Assignment_01_OOP\\TicketBookingSystem\\Ticket.cs",
-              "RelativeDocumentMoniker": "TicketBookingSystem\\Ticket.cs",
-              "ToolTip": "C:\\Back End\\OOP\\Assignment_01_OOP\\TicketBookingSystem\\Ticket.cs",
-              "RelativeToolTip": "TicketBookingSystem\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:20:09.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Program.cs",
-              "RelativeDocumentMoniker": "Assignment 01 OOP\\Program.cs",
-              "ToolTip": "C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Program.cs",
-              "RelativeToolTip": "Assignment 01 OOP\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:17:10.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\Program.cs",
               "RelativeDocumentMoniker": "Movie Ticket Booking System\\Program.cs",
               "ToolTip": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\Program.cs",
               "RelativeToolTip": "Movie Ticket Booking System\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T11:50:00.284Z",
+              "WhenOpened": "2026-03-03T12:19:42.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Projector.cs",
-              "DocumentMoniker": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\Projector.cs",
-              "RelativeDocumentMoniker": "Movie Ticket Booking System\\Projector.cs",
-              "ToolTip": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\Projector.cs",
-              "RelativeToolTip": "Movie Ticket Booking System\\Projector.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment 01 OOP\\Program.cs",
+              "ToolTip": "C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Program.cs",
+              "RelativeToolTip": "Assignment 01 OOP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T11:47:57.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StandardTicket.cs",
-              "DocumentMoniker": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\StandardTicket.cs",
-              "RelativeDocumentMoniker": "Movie Ticket Booking System\\StandardTicket.cs",
-              "ToolTip": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\StandardTicket.cs",
-              "RelativeToolTip": "Movie Ticket Booking System\\StandardTicket.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T11:47:08.15Z"
+              "WhenOpened": "2026-03-03T12:18:53.919Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\Ticket.cs",
-              "RelativeDocumentMoniker": "Movie Ticket Booking System\\Ticket.cs",
-              "ToolTip": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\Ticket.cs",
-              "RelativeToolTip": "Movie Ticket Booking System\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
+              "Title": "Cinema.cs",
+              "DocumentMoniker": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\Cinema.cs",
+              "RelativeDocumentMoniker": "Movie Ticket Booking System\\Cinema.cs",
+              "ToolTip": "C:\\Back End\\OOP\\Assignment_01_OOP\\Movie Ticket Booking System\\Cinema.cs",
+              "RelativeToolTip": "Movie Ticket Booking System\\Cinema.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T11:46:26.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Ticket.cs",
-              "RelativeDocumentMoniker": "Assignment 01 OOP\\Ticket.cs",
-              "ToolTip": "C:\\Back End\\OOP\\Assignment_01_OOP\\Assignment 01 OOP\\Ticket.cs",
-              "RelativeToolTip": "Assignment 01 OOP\\Ticket.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAMBdwD4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T11:43:19.38Z",
+              "WhenOpened": "2026-03-03T12:16:59.702Z",
               "EditorCaption": ""
             }
           ]
