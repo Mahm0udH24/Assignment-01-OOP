@@ -3,28 +3,34 @@ namespace Movie_Ticket_Booking_System
     using System;
     using System.Collections.Generic;
 
-    public class Cinema
-    {
-        private System.Collections.Generic.List<Ticket> _tickets = new System.Collections.Generic.List<Ticket>();
 
-        public void Open() => Console.WriteLine("=== Cinema Opened ===\n");
+
+    public partial class Cinema
+    {
+        private List<Ticket> _tickets = new();
+        public void Open() => Console.WriteLine("=== Cinema Opened ===");
         public void Close() => Console.WriteLine("\n=== Cinema Closed ===");
         public void AddTicket(Ticket t) => _tickets.Add(t);
-
-        public void PrintAllTickets()
-        {
-            Console.WriteLine("--- All Tickets ---");
-            foreach (var t in _tickets) t.Print();
-        }
+        public Ticket[] GetTickets() => _tickets.ToArray();
     }
 
-    public static class BookingHelper
+ 
+    public partial class Cinema
     {
-       
-        public static void PrintAll(IPrintable[] items)
+        public void PrintAll()
         {
-            Console.WriteLine("\n--- BookingHelper.PrintAll ---");
-            foreach (var item in items) item?.Print();
+            Console.WriteLine("\n--- All Tickets (from Cinema.Reporting) ---");
+            foreach (var t in _tickets)
+            {
+                string details = t switch
+                {
+                    StandardTicket s => $"Standard | Seat: {s.Seat}",
+                    VIPTicket v => $"VIP | Lounge: Yes | Fee: {v.Fee}",
+                    IMAXTicket i => $"IMAX | 3D: Yes",
+                    _ => ""
+                };
+                Console.WriteLine($"[Ticket #{t.TicketId}] {t.MovieName} | {details} | Price: {t.Price} | Final: {t.CalculateFinalPrice():F2} | Booked: {(t.IsBooked ? "Yes" : "No")}");
+            }
         }
     }
 }

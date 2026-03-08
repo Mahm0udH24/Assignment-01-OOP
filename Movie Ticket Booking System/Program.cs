@@ -4,35 +4,35 @@ class Program
 {
     static void Main()
     {
-        Cinema myCinema = new Cinema();
-        myCinema.Open();
+        Cinema cinema = new Cinema();
+        cinema.Open();
 
-    
-        StandardTicket t1 = new StandardTicket("Inception", 80, "A5");
-        VIPTicket t2 = new VIPTicket("Avengers", 200);
-        IMAXTicket t3 = new IMAXTicket("Dune", 130, true);
+       
+        Console.WriteLine("// Ticket t = new Ticket(\"Test\", 100);  // ERROR: Cannot create instance of abstract type 'Ticket'");
+
+        var t1 = new StandardTicket("Inception", 80, "A5");
+        var t2 = new VIPTicket("Avengers", 200);
+        var t3 = new IMAXTicket("Dune", 130, true);
 
         t1.Book(); t2.Book(); t3.Book();
-        myCinema.AddTicket(t1); myCinema.AddTicket(t2); myCinema.AddTicket(t3);
+        cinema.AddTicket(t1); cinema.AddTicket(t2); cinema.AddTicket(t3);
 
-   
-        myCinema.PrintAllTickets();
+        cinema.PrintAll();
 
-     
-        Console.WriteLine("\n--- Clone Test ---");
-        VIPTicket t2Clone = (VIPTicket)t2.Clone();
-        t2Clone.MovieName = "Interstellar"; 
+        Console.WriteLine("\n--- Polymorphism: Final Price per Ticket ---");
+        Ticket[] tickets = cinema.GetTickets();
+        foreach (var t in tickets)
+        {
+            Console.WriteLine($"{t.GetType().Name} => Final Price: {t.CalculateFinalPrice():F2}");
+        }
 
-        Console.Write("Original : "); t2.Print();
-        Console.Write("Clone    : "); t2Clone.Print();
+        Console.WriteLine("\n--- Extension Method: Receipt ---");
+        t2.ShowReceipt();
 
-        Console.WriteLine("\n--- After Cancellation ---");
-        t1.Cancel();
-        t1.Print();
+        Console.WriteLine("\n--- Extension Method: Total Revenue ---");
+        Console.WriteLine($"Total Revenue: {tickets.GetTotalRevenue():F2}");
 
-        IPrintable[] printableTickets = { t1, t2, t3 };
-        BookingHelper.PrintAll(printableTickets);
-        myCinema.Close();
+        cinema.Close();
     }
 }
 }
